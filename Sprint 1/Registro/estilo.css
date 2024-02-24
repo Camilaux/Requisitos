@@ -29,7 +29,6 @@ main{
 puede ponerse la parte del login si así lo deseamos plantear, es decir mitad del contenedor login y la otra registrar*/
 .caja_trasera{
     width:100%;
-    padding: 10px 20px;
     display:flex;
     justify-content:center;
     backdrop-filter: blur(10px);
@@ -77,17 +76,19 @@ puede ponerse la parte del login si así lo deseamos plantear, es decir mitad de
     align-items: center;
     width: 100%;
     max-width: 380px;
-    position: relative;
-    top:-185px;
     left:15px;
+    flex-direction: column;
+    margin:auto;
+    padding: 20px;
+    box-sizing: border-box;
 }
 /*creo el contenedor de formulario*/
 .contenedor_login-registro form{
     width: 100%;
-    padding:80px 20px;
+    padding:20px;
     background: #fff;
-    position: absolute;
     border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .contenedor_login-registro form h2{
