@@ -130,6 +130,7 @@ puede ponerse la parte del login si así lo deseamos plantear, es decir mitad de
     height:300px;
     flex-direction: column;
     margin: auto;
+    display: none;
     }
 
     .caja_trasera div{
